@@ -6,15 +6,4 @@
 ## edit your Config Vars in heroku/app/settings and 
 ## restart the bot by turning the worker off and back on
 
-echo "Creating config.json..."
-cd /home/shell-bot
-cat > config.json << EOF
-{
-    "authToken": "$BOT",
-    "owner": 1348352154
-}
-EOF
-echo "Done."
-
-echo "Starting Bot..."
-node server
+sleep 999999999999999999999999
