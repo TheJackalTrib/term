@@ -6,4 +6,4 @@
 ## edit your Config Vars in heroku/app/settings and 
 ## restart the bot by turning the worker off and back on
 
-cd /home/shell-bot && node server
+cd /home/shell && node server
