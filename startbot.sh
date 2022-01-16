@@ -6,4 +6,4 @@
 ## edit your Config Vars in heroku/app/settings and 
 ## restart the bot by turning the worker off and back on
 
-timeout 30000m ping.ya.ru
+cd /home/shell-bot && node server
